@@ -13,7 +13,6 @@ let dataProductos;
 ////////////////////////////////////////////////////////////////////////////////////
 /* ---------------------------- Listeners ----------------------------------------*/
 ////////////////////////////////////////////////////////////////////////////////////
-
 document.addEventListener("DOMContentLoaded", () => {
 	articulosCarrito = JSON.parse(localStorage.getItem("carrito")) || [];
 	insertarCarritoHTML();
