@@ -1,0 +1,196 @@
+/*---------------------------------------------------------------------------------*/
+/*------------------------------       Body       -------------------------------*/
+/*---------------------------------------------------------------------------------*/
+body{
+    background: #1b5407;
+}
+a{
+    text-decoration: none;
+}
+
+/*---------------------------------------------------------------------------------*/
+/*------------------------------       Menu Bar     -------------------------------*/
+/*---------------------------------------------------------------------------------*/
+.navbar {
+    background: #1b54077a;
+}
+.sanfran{
+    font-family: 'Lobster', cursive;
+    color: #ffff00;
+    font-size: 20px;
+}
+.sanfran:hover{
+    font-family: 'Lobster', cursive;
+    color: rgb(84, 255, 16);
+    font-size: 20px;
+}
+.customNavbar{
+    color: #3bb411 !important;
+}
+
+/*---------------------------------------------------------------------------------*/
+/*------------------------------      Carrito       -------------------------------*/
+/*---------------------------------------------------------------------------------*/
+.rojo{
+    color:#1b54077a;
+    font-size: 17px;
+}
+.rojo:hover{
+    color: rgba(255, 0, 0, 0.692);
+    text-shadow: grey 2px 2px 3px;
+}
+#pagar :hover {
+    color: rgb(4, 94, 228);
+    font-weight: 900;
+    background-color: #09a0e63b;
+}
+#menosProducto{
+    color: rgb(121, 118, 118);
+}
+#menosProducto:hover{
+    color: rgba(206, 22, 22, 0.925);
+    cursor: pointer;
+}
+#masProducto{
+    color: rgb(121, 118, 118);
+}
+#masProducto:hover{
+    color: rgb(9, 165, 9);
+    cursor: pointer;
+}
+
+/*---------------------------------------------------------------------------------*/
+/*------------------------------        Main        -------------------------------*/
+/*---------------------------------------------------------------------------------*/
+.hero{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    margin-top: 60px;
+}
+.titulo{
+    font-size: 3rem;
+    font-family: "Lobster";
+}
+.subtitulo{
+    font-size: 1rem;
+}
+.iconoBurger{
+    font-size: 12rem;
+    color: #ffff00;
+}
+
+/*---------------------------------------------------------------------------------*/
+/*------------------------------      Secciones     -------------------------------*/
+/*---------------------------------------------------------------------------------*/
+.card{
+    background: #35352aa2;
+    box-shadow: 0 5px 9px 0 #3bb411, 0 7px 21px 0 #ffff00;
+    margin-top: 25px;
+}
+#community{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#store{
+    margin: 30px;
+}
+.amarillo{
+    color: #ffff00;
+}
+.blanco{
+    color: rgba(242, 243, 183, 0.877);
+}
+
+/*---------------------------------------------------------------------------------*/
+/*------------------------------       Footer       -------------------------------*/
+/*---------------------------------------------------------------------------------*/
+footer i {
+    bottom: 0;
+    background:  #35352aa2;
+    color: #ffff00;
+}
+footer a:hover{
+    color:gold;
+}
+footer{
+    background-color: #0a2002;
+    z-index: 10;
+}
+
+/*---------------------------------------------------------------------------------*/
+/*------------------------------      Sorteo        -------------------------------*/
+/*---------------------------------------------------------------------------------*/
+.sorteo h2 {
+    color:  #ffff00;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.sorteo h5 {
+    color:  #ffff00;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.sorteo h2 i{
+    margin-left: 1rem;
+}
+
+/*---------------------------------------------------------------------------------*/
+/*------------------------------   Cuenta Regresiva   -------------------------------*/
+/*---------------------------------------------------------------------------------*/
+.contador {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+.contador li {
+    flex: 0 0 calc(50% - 3rem);
+    list-style: none;
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 4rem; }
+    @media (min-width: 768px) {
+        .contador li {
+        flex: 0 0 calc(25% - 2rem); 
+    } 
+}
+.numero {
+    color: yellow;
+    font-size: 3rem;
+    margin: 0;
+    font-family: 'Oswald', sans-serif; }
+    @media (min-width: 768px) {
+        .numero {
+        font-size: 7rem; 
+    }
+}
+.numero p{
+    color: #e9eb81c4;
+}
+
+/*---------------------------------------------------------------------------------*/
+/*------------------------------   Boton Whatsapp   -------------------------------*/
+/*---------------------------------------------------------------------------------*/
+.btn-whatsapp {
+        display:block;
+        font-size: 4rem;
+        color: rgba(249, 250, 201, 0.897);
+        position: fixed;
+        right:20px;
+        bottom:20px;
+        border-radius:50%;
+        line-height:80px;
+        text-align:center;
+        z-index:999;
+}
+.btn-whatsapp :hover{
+        color: #ffff00;
+}
+
+#community {
+    max-height: max-content;
+}
